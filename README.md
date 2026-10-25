@@ -20,3 +20,12 @@ fonts are used if they cannot load.
 
 GitHub Pages uses the GitHub Actions source. Pushes to `main` deploy only the
 `site` directory using `.github/workflows/pages.yml`.
+
+## Vercel hosting
+
+To use a public URL without the GitHub account name, import this repository
+into a personal Vercel Hobby account. The root `vercel.json` publishes only
+`site/`; no build or dependency installation is needed. Choose a project name
+such as `henry-tse` or `bangbang-henry`; Vercel assigns an available `vercel.app`
+hostname. The exact hostname must be confirmed after deployment. The existing
+GitHub Pages deployment remains available.
